@@ -60,7 +60,7 @@ local ValiantAimHacks = getgenv().ValiantAimHacks
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
 circle.Thickness = 2
-circle.Color = Color3fromRGB(2, 0, 252)
+circle.Color = Color3fromRGB(255, 0, 0)
 circle.Filled = false
 function ValiantAimHacks.updateCircle()
     if (circle) then
